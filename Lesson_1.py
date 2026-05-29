@@ -5,7 +5,7 @@ name = input("Введите ваше имя: ")
 gender_text = gender
 
 # Проверка пола
-if gender in ("М", "Ж"):
+if gender in ("М", "Ж", "M", "F"):
     print("Вход разрешён")
 
     # Проверка возраста и пола
